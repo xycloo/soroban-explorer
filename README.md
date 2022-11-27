@@ -12,8 +12,9 @@ This crate (will) contains utils that web apps and other crates share in common,
 
 ## Web Apps
 
-### Soroban transaction explore
+### [Soroban transaction explore](https://tx-explorer.xycloo.com/)
 [Soroban-fiddle](https://github.com/leighmcculloch/soroban-fiddle) works really great, but when you already know your transaction hash it's better to not stream all operations and read all the respective transactions. However, when looking at soroban we can understand very little about the hostfunction invocation without manually decoding every inch of the evenlope, result, and meta XDR. This simple yew-built web app allows you to explore a transaction without having to decode anything: just paste the transaction id hash in the input field!
+
 
 ## Credits
 Many design concepts where taken from [soroban-fiddle](https://github.com/leighmcculloch/soroban-fiddle).
