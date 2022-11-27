@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "explorer-common",
+
+]
+
+exclude = [
+    "web/soroban-tx-explore",
+]
