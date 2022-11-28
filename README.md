@@ -1,5 +1,15 @@
-# Soroban Explorer
-#### Utils + webapps to explore Soroban
+
+<div align="center">
+
+  <img src="https://raw.githubusercontent.com/xycloo/soroban-guide/main/assets/logo.png" alt="logo" width="100" height="auto" />
+  <h1>Soroban Explorer</h1>
+  
+  <h4>
+	Utils + webapps to explore Soroban.
+  </h4>
+  
+</div>
+<br/>
 
 
 ## About
