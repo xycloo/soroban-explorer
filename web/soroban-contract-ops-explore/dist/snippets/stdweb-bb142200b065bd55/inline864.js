@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_e8fd365f82317630738b95d2e50ad98b059d5dcb(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).miterLimit=($1); }
+export function __cargo_web_snippet_ff5103e6cc179d13b4c7a785bdce2708fd559fc0(Module, $0) { Module.STDWEB_PRIVATE.tmp = Module.STDWEB_PRIVATE.to_js( $0 ); }

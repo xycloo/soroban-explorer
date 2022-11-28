@@ -98,30 +98,17 @@ impl Component for App {
                     .await;
                     js! {
                     document.getElementById("loadbtn").classList.remove("hidden");
-                    }
-
-                    js! {
-                            var coll = document.getElementsByClassName("collapsible");
-                            var i;
-
-                            for (i = 0; i < coll.length; i++) {
-                              coll[i].addEventListener("click", function() {
-                                this.classList.toggle("active");
-                                var content = this.nextElementSibling;
-                                if (content.style.display === "block") {
-                                  content.style.display = "none";
-                                } else {
-                                  content.style.display = "block";
-                                }
-                              });
-                            };
-                    hljs.highlightAll();
-                                        }
+                            hljs.highlightAll();
+                                    }
                 });
                 true
             }
             AppMsg::NextHref(next_href) => {
                 self.next = next_href;
+                js! {
+                document.getElementById("loadbtn").classList.remove("hidden");
+                    hljs.highlightAll();
+                        }
                 true
             }
             AppMsg::LoadMore => {
@@ -138,6 +125,7 @@ impl Component for App {
                     )
                     .await;
                 });
+
                 true
             }
         }
@@ -165,8 +153,6 @@ impl Component for App {
                                 <div>
                     <input oninput={oninput} />
 
-                <p id="status"></p>
-
                     </div>
                     </div>
 
@@ -192,8 +178,9 @@ impl Component for App {
                     )
                     }
 
-                <div class="centered">
-                <button id="loadbtn" class="hidden" onclick={loadmore}>{"Load More Operations"}</button>
+            <div class="centered">
+                        <p id="status"></p>
+                <button id="loadbtn" class="" onclick={loadmore}>{"Load More Operations"}</button>
         </div>
                     </main>
 

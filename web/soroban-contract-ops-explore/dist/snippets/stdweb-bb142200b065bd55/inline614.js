@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_44125a8fd9c060d254010c76a299ad19727eae51(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);var array=($0);var pointer=($1);Module.HEAP16.set(array,pointer); }
+export function __cargo_web_snippet_4ed3aa3d51caac2f11ccf4536fd2f1be6d73ef0c(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof KeyboardEvent); }

@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_ff987f4528f4cf27f9e0a010c9fa1de716a5de16(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof Event && o.type === "slotchange"); }
+export function __cargo_web_snippet_22a62bc03ed4b2e530885eaee9c575a53d7a722d(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent && o.type === "mouseleave"); }

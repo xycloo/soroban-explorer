@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_744ab5da031e81f39f241239157e8353b0e93915(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof HTMLSlotElement); }
+export function __cargo_web_snippet_984f446e838952a43ffa649438b44dd50fde4230(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof ProgressEvent && o.type === "error"); }

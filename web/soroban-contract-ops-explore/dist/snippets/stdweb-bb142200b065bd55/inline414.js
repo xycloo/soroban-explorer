@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_ff5103e6cc179d13b4c7a785bdce2708fd559fc0(Module, $0) { Module.STDWEB_PRIVATE.tmp = Module.STDWEB_PRIVATE.to_js( $0 ); }
+export function __cargo_web_snippet_da5e7bc1675656fbecb114caa83e1259e76a9538(Module, $0, $1) { return Module.STDWEB_PRIVATE.acquire_rust_reference( Module.HEAPF64.slice( $0, $1 ) ); }

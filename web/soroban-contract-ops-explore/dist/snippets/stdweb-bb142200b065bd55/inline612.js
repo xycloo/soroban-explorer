@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_848ea1c1240c42ae5105b8df122e9a2d6d288162(Module, $0, $1) { return Module.STDWEB_PRIVATE.acquire_rust_reference( Module.HEAPU16.slice( $0, $1 ) ); }
+export function __cargo_web_snippet_29ef3a8aaefcd4cb1dfc6284d7e36127515d26ae(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof KeyboardEvent && o.type === "keydown"); }

@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_5ca8faa7a7308f289b1b751ed46dbde95c2a0a1c(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return Array.from(($1).touches);})()); }
+export function __cargo_web_snippet_7f0f0fcd619db3fadf5f24d4e7ca85afc23bdddf(Module, $0, $1, $2) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);Module.STDWEB_PRIVATE.from_js($0, (function(){try{return{value:function(){return new WebSocket(($1),($2));}(),success:true};}catch(error){return{error:error,success:false};}})()); }

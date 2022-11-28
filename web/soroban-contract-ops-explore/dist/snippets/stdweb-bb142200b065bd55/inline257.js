@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_495783f798587e61fb6d63ca3d9dd642ded04893(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent && o.type === "mouseout"); }
+export function __cargo_web_snippet_7e69871d2f0243bddcb8cffc809fd6fb5fb78697(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).fillStyle=($1); }

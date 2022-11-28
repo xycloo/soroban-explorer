@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_09f65ec68a01777979aa15df0bc83159a8ffdb1f(Module) { document.getElementById("loadbtn").classList.remove("hidden"); }
+export function __cargo_web_snippet_5cef8d7cfbe000ccb4dc154624fb7b4aaf62c116(Module) { document.getElementById("loadbtn").classList.remove("hidden");hljs.highlightAll(); }

@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_337ad45e56250e065bd0592c889015c47caf07fe(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof HTMLOptionElement); }
+export function __cargo_web_snippet_14a74d73b9a7245d602e132379ac3f4c7d6e8f17(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return($1).lineDashOffset;})()); }

@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_9a759f618cd916179c25690e8e04a7b8ad82e0de(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return($1).result;})()); }
+export function __cargo_web_snippet_d857323550eecbf9d9eb04a58697a689cd1c4ba7(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof WebSocket); }

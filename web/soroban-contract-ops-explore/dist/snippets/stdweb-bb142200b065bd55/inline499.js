@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_de2896a7ccf316486788a4d0bc433c25d2f1a12b(Module, $0) { var r = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (r instanceof DOMException) && (r.name === "NotFoundError"); }
+export function __cargo_web_snippet_14eef37aabfb619b68e1340d0dda149cf21aca47(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){var input=($1);return Object(input)===input&&typeof input.then==="function";})()); }

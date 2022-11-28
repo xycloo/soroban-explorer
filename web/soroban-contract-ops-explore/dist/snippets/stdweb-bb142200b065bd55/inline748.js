@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_9d895241da80399cceda3b44e73846d885be6e50(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).setMonth(($1)); }
+export function __cargo_web_snippet_e2aefaa15afeb6b2c4ba7a192261eaa8d4172044(Module, $0, $1, $2) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);Module.STDWEB_PRIVATE.from_js($0, (function(){return($1).lookupNamespaceURI(($2));})()); }

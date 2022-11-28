@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_8cef3e3275006061e2df30068e2c403013b1915f(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).shadowBlur=($1); }
+export function __cargo_web_snippet_31b100433af2dcbf517483ee42ffa60b64cdfeea(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof DOMRect); }

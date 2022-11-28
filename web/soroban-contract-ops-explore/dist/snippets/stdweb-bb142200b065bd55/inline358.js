@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_5428fe61648a7e8aab26a736d5ca9c7b1815fc56(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MessageEvent && o.type === "message"); }
+export function __cargo_web_snippet_a88abe55b748b9685a8dfa7e279a96141f98a0e3(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent && o.type === "mouseenter"); }

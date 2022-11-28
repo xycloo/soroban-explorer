@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_22a62bc03ed4b2e530885eaee9c575a53d7a722d(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent && o.type === "mouseleave"); }
+export function __cargo_web_snippet_8c8a0fd988218bf31fae8adc33f715997855bce8(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).font=($1); }

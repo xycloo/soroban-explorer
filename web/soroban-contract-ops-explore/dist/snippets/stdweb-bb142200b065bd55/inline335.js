@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_ea1008eea53bd6559ffe33b41bbbc917d0c31151(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return($1).devicePixelRatio;})()); }
+export function __cargo_web_snippet_b1792a47b1667cdd6a15f9d9051e26708f8006f3(Module, $0) { $0 = Module.STDWEB_PRIVATE.to_js($0);($0).removeAllRanges(); }

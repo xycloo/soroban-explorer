@@ -1,0 +1,94 @@
+@charset "UTF-8";
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: white;
+  font-size: 1.5rem;
+}
+
+main {
+  color: #000;
+  font-family: sans-serif;
+}
+
+#heading {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.logo {
+  height: 20em;
+}
+
+.heart:after {
+  content: "❤️";
+  font-size: 1em;
+}
+
+h1 + .subtitle {
+  display: block;
+  margin-top: -1em;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+code {
+  background: #f2f2f2;
+  padding: 3px;
+  border-radius: 3px;
+  display: block;
+  font-size: 0.5em;
+  width: 700px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.collapsible {
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 720px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.active, .collapsible:hover {
+  background-color: #e2e2e2;
+}
+
+input {
+  margin-top: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  background: #F3F3F3;
+  border: 0.5px solid rgba(205, 205, 205, 0.8039215686);
+}
+
+.centered {
+  text-align: center;
+  justify-content: center;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}

@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_c07649d1f47f1c9e9985bda0dcc5661606e44380(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent); }
+export function __cargo_web_snippet_2682cf5dba376aaf776ca50b2a181db54cbbf305(Module, $0, $1, $2, $3) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);$3 = Module.STDWEB_PRIVATE.to_js($3);Module.STDWEB_PRIVATE.from_js($0, (function(){try{($1).addColorStop(($2),($3));return{success:true};}catch(error){return{error:error,success:false};}})()); }

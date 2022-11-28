@@ -1,1 +1,1 @@
-export function __cargo_web_snippet_31b100433af2dcbf517483ee42ffa60b64cdfeea(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof DOMRect); }
+export function __cargo_web_snippet_49856855a8c86b0b52b0f4674ae30c788b366e78(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).alert(($1)); }
