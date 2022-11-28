@@ -26,7 +26,7 @@ This crate (will) contains utils that web apps and other crates share in common,
 [Soroban-fiddle](https://github.com/leighmcculloch/soroban-fiddle) works really great, but when you already know your transaction hash it's better to not stream all operations and read all the respective transactions. However, when looking at soroban we can understand very little about the hostfunction invocation without manually decoding every inch of the evenlope, result, and meta XDR. This simple yew-built web app allows you to explore a transaction without having to decode anything: just paste the transaction id hash in the input field!
 
 
-### [Soroban contract operations explore](https://contract-ops-explore.xycloo.com/)
+### [Soroban contract operations explore](https://contract-explore.xycloo.com)
 This web app let's you explore the operations that have invoked your contract, try it out by pasting a contract id in the input field!
 
 ## Credits
