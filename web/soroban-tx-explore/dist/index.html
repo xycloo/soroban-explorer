@@ -1,14 +1,41 @@
 <!DOCTYPE html><html><head>
     <meta charset="utf-8">
     <title>Tx Explorer</title>
-    <link rel="stylesheet" href="./index-a9dad5606bb13208.css">
+    <link rel="stylesheet" href="/index-56637bf68b45cb5d.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 <!-- and it's easy to individually load additional languages -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/json.min.js"></script>
 <script>hljs.highlightAll()</script>
   
-<link rel="preload" href="./soroban-tx-explorer-d4fbcbd69977344c_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="./soroban-tx-explorer-d4fbcbd69977344c.js"></head>
+<link rel="preload" href="/soroban-tx-explorer-c2d59f46bbfc14db_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/soroban-tx-explorer-c2d59f46bbfc14db.js"></head>
 <body>
-<script type="module">import init from './soroban-tx-explorer-d4fbcbd69977344c.js';init('./soroban-tx-explorer-d4fbcbd69977344c_bg.wasm');</script></body></html>
+<script type="module">import init from '/soroban-tx-explorer-c2d59f46bbfc14db.js';init('/soroban-tx-explorer-c2d59f46bbfc14db_bg.wasm');</script><script>(function () {
+    var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    var url = protocol + '//' + window.location.host + '/_trunk/ws';
+    var poll_interval = 5000;
+    var reload_upon_connect = () => {
+        window.setTimeout(
+            () => {
+                // when we successfully reconnect, we'll force a
+                // reload (since we presumably lost connection to
+                // trunk due to it being killed, so it will have
+                // rebuilt on restart)
+                var ws = new WebSocket(url);
+                ws.onopen = () => window.location.reload();
+                ws.onclose = reload_upon_connect;
+            },
+            poll_interval);
+    };
+
+    var ws = new WebSocket(url);
+    ws.onmessage = (ev) => {
+        const msg = JSON.parse(ev.data);
+        if (msg.reload) {
+            window.location.reload();
+        }
+    };
+    ws.onclose = reload_upon_connect;
+})()
+</script></body></html>
