@@ -22,11 +22,14 @@ This crate (will) contains utils that web apps and other crates share in common,
 
 ## Web Apps
 
-### [Soroban transaction explore](https://tx-explorer.xycloo.com/)
+### [strkey encoder](https://strkey-encode.xycloo.com/)
+Converts a hex string to a stellar strkey. Useful when you have a contract hash and need to pass it as an `Address` for a cross-contract call.
+
+### [Soroban transaction explore](https://tx-explorer.xycloo.com/) [currently broken due to XDR updates]
 [Soroban-fiddle](https://github.com/leighmcculloch/soroban-fiddle) works really great, but when you already know your transaction hash it's better to not stream all operations and read all the respective transactions. However, when looking at soroban we can understand very little about the hostfunction invocation without manually decoding every inch of the evenlope, result, and meta XDR. This simple yew-built web app allows you to explore a transaction without having to decode anything: just paste the transaction id hash in the input field!
 
 
-### [Soroban contract operations explore](https://contract-explore.xycloo.com)
+### [Soroban contract operations explore](https://contract-explore.xycloo.com) [currently broken due to XDR updates]
 This web app let's you explore the operations that have invoked your contract, try it out by pasting a contract id in the input field!
 
 ## Credits
