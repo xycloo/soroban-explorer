@@ -8,4 +8,5 @@ members = [
 exclude = [
     "web/soroban-tx-explore",
     "web/soroban-contract-ops-explore",
+    "web/strkey-encode",
 ]
