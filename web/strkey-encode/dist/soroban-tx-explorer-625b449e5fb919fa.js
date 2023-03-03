@@ -545,7 +545,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('soroban-tx-explorer-eb270a8a0e78a5eb_bg.wasm', import.meta.url);
+        input = new URL('soroban-tx-explorer-625b449e5fb919fa_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 

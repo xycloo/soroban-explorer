@@ -18,8 +18,7 @@ pub enum AppMsg {
 }
 
 fn read_and_process_tx(f: impl Fn(String), id: String) {
-    let mut id_bytes = [0; 32];
-    let encoded = Strkey::PublicKeyEd25519(stellar_strkey::ed25519::PublicKey(
+    let encoded = Strkey::Contract(stellar_strkey::Contract(
         hex::decode(id).unwrap().as_slice().try_into().unwrap(),
     ))
     .to_string();
